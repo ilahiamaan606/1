@@ -1,12 +1,8 @@
+let count= 0
+let num= 7;
 
-let reg_email= "abc@gmail.com";
-
-let pass= "1234";
-
-let enter_email= "abc@gmail.com";
-
-let enter_pass= "123456";
-
-if(reg_email==enter_email){
-      
-
+for(let i=0; i<7; i++){
+if(num%i){count++}
+}
+if(count>1){console.log(NUMBER IS NOT PRIME")}
+else{console.log("NUMBER IS NOT PRIME")}
